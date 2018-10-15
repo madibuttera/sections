@@ -1,3 +1,20 @@
 html {
+  background:  #eee9de;
   font-family: 'Lato', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: #666;
+  background-color: #eee9de;
+  display: inline-block;
+  padding: ;
+
 }
