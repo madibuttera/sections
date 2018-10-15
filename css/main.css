@@ -1,5 +1,6 @@
 html {
   background:  #eee9de;
+  box-sizing: content-box;
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
 }
@@ -8,29 +9,30 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+.btn h1 {
  padding: .4em .75em .5em;
  text-align: left;
 }
 
 img {
   display: block;
-  padding:
+  width: 100%;
 }
 
 section p {
-  padding: 1em;
+  max-width: 25em;
+  padding: 2em;
   text-align: center;
   vertical-align: middle;
 }
 
-a {
+.btn a {
   color: #666;
   background-color: #eee9de;
   border-radius: 4px;
   border-color: #333;
   display: inline-block;
-  padding: 2em;
+  padding: 1em;
   text-align: left;
   text-decoration: none;
 }
@@ -39,8 +41,3 @@ a:hover {
   color: #eee9de;
   background-color: #333;
 }
-
-padding
-1em
-2em
-.4em .75em .5em
