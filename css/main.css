@@ -1,7 +1,7 @@
 html {
-  background: #eee9de;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  background:  #eee9de;
+  box-sizing: content-box;
+  font-family: 'Lato', sans-serif;
   line-height: 1.5;
 }
 
@@ -9,35 +9,24 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 1.5rem 0;
-  text-align: left;
-}
-
-.btn {
-  max-width: 25em;
-}
-
 .btn h1 {
-  padding: .4em .75em .5em;
-  text-align: left;
+ padding: .4em .75em .5em;
+ text-align: left;
 }
 
 img {
   display: block;
-  padding-top: 1em;
-  padding-bottom: 1em;
   width: 100%;
 }
 
-.btn section p {
+section p {
   max-width: 25em;
   padding: 2em;
   text-align: center;
   vertical-align: middle;
 }
 
-.btn section a {
+.btn a {
   color: #666;
   background-color: #eee9de;
   border-radius: 4px;
@@ -48,7 +37,7 @@ img {
   text-decoration: none;
 }
 
-.btn section a:hover {
+a:hover {
   color: #eee9de;
   background-color: #333;
 }
