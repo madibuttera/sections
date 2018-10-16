@@ -12,10 +12,12 @@ html {
 body {
   background-color: #eee9de;
   margin: 1.5rem;
+  vertical-align: middle;
 }
 
 h1 {
-  margin-left: auto;
+  font-weight: bold;
+  margin: 1.5rem;
   padding: .4em .75em .5em;
   text-align: left;
 }
@@ -30,9 +32,9 @@ img {
 }
 
 section p {
+  display: block;
   padding: 1em;
   text-align: left;
-  vertical-align: middle;
 }
 
 a {
@@ -42,6 +44,7 @@ a {
   border: solid;
   border-color: #333;
   display: inline-block;
+  line-height: 1.5;
   padding: .5em;
   text-align: left;
   text-decoration: none;
