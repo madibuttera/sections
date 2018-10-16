@@ -1,11 +1,17 @@
 html {
   background:  #eee9de;
+  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #eee9de;
+  margin: 1.5rem;
 }
 
 h1 {
@@ -15,7 +21,7 @@ h1 {
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
   max-width: 25em;
   vertical-align: middle;
