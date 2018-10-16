@@ -9,13 +9,13 @@ html {
 }
 
 h1 {
+  margin-left: auto;
  padding: .4em .75em .5em;
  text-align: left;
 }
 
 img {
   display: block;
-  padding:
 }
 
 section p {
