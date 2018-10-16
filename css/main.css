@@ -10,27 +10,34 @@ html {
 
 h1 {
   margin-left: auto;
- padding: .4em .75em .5em;
- text-align: left;
+  padding: .4em .75em .5em;
+  text-align: left;
 }
 
 img {
-  display: block;
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  vertical-align: middle;
+  text-align: center;
+  padding: .75em;
+  float: left;
 }
 
 section p {
   padding: 1em;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
 }
 
 a {
   color: #666;
   background-color: #eee9de;
-  border-radius: 4px;
+  border-radius: .5em;
+  border: solid;
   border-color: #333;
   display: inline-block;
-  padding: 2em;
+  padding: .5em;
   text-align: left;
   text-decoration: none;
 }
@@ -39,8 +46,3 @@ a:hover {
   color: #eee9de;
   background-color: #333;
 }
-
-padding
-1em
-2em
-.4em .75em .5em
