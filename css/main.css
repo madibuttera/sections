@@ -17,9 +17,9 @@ body {
 
 h1 {
   font-weight: bold;
-  margin: 1.5rem;
+  font-size: 1.4em;
+  margin: .5rem;
   padding: .4em .75em .5em;
-  text-align: left;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
   width: 100%;
   max-width: 25em;
   text-align: center;
-  padding: .75em;
+  padding: 2em;
   float: left;
 }
 
@@ -38,7 +38,7 @@ section p {
 }
 
 a {
-  color: #666;
+  color: #333;
   background-color: #eee9de;
   border-radius: .5em;
   border: solid;
@@ -48,6 +48,7 @@ a {
   padding: .5em;
   text-align: left;
   text-decoration: none;
+  font-size: .8em;
 }
 
 a:hover {
