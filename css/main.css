@@ -29,15 +29,6 @@ img {
   display: block;
 }
 
-.div1 {
-  display: block;
-  width: 100%;
-  max-width: 25em;
-  text-align: center;
-  padding: 1.2em;
-  float: left;
-}
-
 .btn {
   color: #333;
   background-color: #eee9de;
